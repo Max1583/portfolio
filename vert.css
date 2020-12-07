@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,800&display=swap');
+html{
+  background: url(gif.gif);
+  color:white;
+  left: 0px;
+  top: 0px;
+
+}
+
+
+
+#top {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+    background: url(giff.gif);
+    height: 70px;
+}
+#top img{
+    margin-top: -26px;
+    height: 120px;
+    width: 350px;
+}
+
+
+body{
+  margin: 0px;
+  
+}
+header h1{
+   
+    font-size: 36px;
+  margin: 10px 10px 10px 30px;
+  animation-name: logo;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  
+}
+header h2{
+        
+    display: none;
+
+}
+
+header{
+    z-index:10;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: rgb(52, 68,153) ;
+  position: sticky;
+  border-bottom:5px solid #333333 ;
+
+}
+nav li{
+  list-style: none;
+  display: inline;
+  padding: 30px;
+}
+li a{
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+  padding: 10px 9px ;
+  
+}
+li a:hover{
+    background-color: rgba(70, 28, 130, 0.541) ;
+}
+nav{
+  margin-left: auto;
+  margin-top: 20px;
+
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    font-family:monospace ;
+    text-align: center;
+    height: 90vh;
+    background: rgb(76, 11, 255);
+    animation-name: home;
+    animation-duration: 20s;
+    margin-bottom: 0px;
+
+}
+
+
+
+@keyframes home{
+    0%{
+        background-color: black;
+
+    }
+    25%{
+        background-color:transparent;
+        
+    }
+    50%{
+        background-color:#270073;
+       
+    }
+    75%{
+        background-color: rgb(0, 159, 208);       
+    }
+
+    100%{
+        background-color: #fa5075;
+        
+    }
+}
+#div1 img{
+    height: 250px;
+}
+#div1 p{
+    background-color: black;
+    margin: auto;
+    padding:5px 0px 5px 3px;
+    margin-top:0px;
+    width: fit-content;
+    font-size: 35px;
+}
+#div1 section{
+    font-size: 20px;
+
+}
+#img1{
+    position: absolute;
+    height: 40px;
+    float:center;
+
+}
+
+#loading #img2{
+    position: absolute;
+    left:0px;
+    height:100px;
+    animation-name: loading;
+    animation-delay:s ;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+
+
+@keyframes loading{
+    0%{
+       left: 0%;
+    }
+    50%{
+        left: 50%;
+      
+    }
+    100%{
+        left: 70%;
+        
+    }
+
+}
+p span{
+    padding: 5px;
+    background-color: #333333;
+}
+article{
+    margin-top:-15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: url(wc3.jpg);
+    background-repeat: repeat-x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color:rgb(255, 0, 183);
+    flex: 1;
+}
+article  .span{
+    background: rgb(0, 255, 229);
+    margin: auto;
+    box-shadow:3px 3px rgb(255, 0, 0) ;
+    padding-right:10px ;
+}
+article h1{
+    font-size: 60px;
+    margin-left:150px ;
+}
+
+article h2{
+    font-size: 50px;
+    margin-left:40px  ;
+}
+article h3{
+    font-size: 40px;
+    margin-left:-220px  ;
+    background-color: #33333;
+}
+.span1,.span2,.span3{
+    background: black;
+    box-shadow:-2px 2px  rgb(255, 0, 0) ;
+    padding-left: 10px;
+
+}
+#projects{
+    text-align: center;
+    display:flex ;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    background: url(crop1.jpg);
+}
+#projects img{
+    height: 350px;
+    width:400px;
+    border-radius: 20px;
+    
+}
+#projects img:hover{
+    opacity:0.9;
+    transform: scale(0.9);
+}
+#projects a{
+    text-decoration: none;
+    color:white;
+}
+#projects h3{
+    background-color:red;
+    padding:10px 10px;
+    border-radius: 20px;
+
+    width:280px;
+    text-align: center;
+    margin:auto;
+}
+#projects h3:hover{
+    opacity:0.9;
+    transform: scale(0.9);
+
+}
+#projects div{
+    margin:50px auto  ;
+    background: #333333;
+    padding: 10px;
+    border-radius: 10px;
+}
+#pro{
+    border-TOP:5px solid #333333 ;
+
+    font-family: 'JetBrains Mono', monospace;
+    padding-top:30px ;
+    background: url(crop1.jpg);
+    font-size: 50px;
+    margin:auto;
+    text-align:center;
+}
+
+#fdiv2, #fdiv1{
+    background: url(gifff.gif);
+}
+#foot-content{
+    flex: 2;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid #333333;
+    background-color:rgba(0, 0, 0, 0.906);
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+#foot-content a{
+    font-size: 35px;
+    padding: 5px;
+    margin: 20px 25px 20px 25px ;
+    border-bottom: 2px solid;
+    text-decoration: none;
+    animation-name: footer;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+@keyframes footer{
+    0%{
+        border-bottom: 2px solid;
+
+    }
+    25%{
+        border-bottom: 2px solid rgb(25, 0, 82);
+
+        
+    }
+    50%{
+        border-bottom: 2px solid rgb(9, 245, 253);
+
+       
+    }
+    75%{
+        border-bottom: 2px solid rgb(133, 5, 101);
+       
+    }
+
+    100%{
+        border-bottom: 2px solid tomato;
+       
+}
+}
+#foot-content a:hover{
+    opacity: 0.5;
+    border-top: 2px solid;
+    border-bottom: none;
+
+}
+
+#fa-facebook{
+    color: blue;
+}
+#fa-google{
+    color: red;
+}
+#fa-github{
+    color:white;
+}
+#fa-twitter{
+    color: rgb(0, 111, 214);
+}
+#fa-snapchat{
+    color: yellow;
+}
+#CONT{
+    font-family: 'JetBrains Mono', monospace;
+    padding-top:30px ;
+    background: url(crop1.jpg);
+    font-size: 50px;
+    margin:auto;
+    text-align:center;
+    border-TOP:5px solid #333333 ;
+}
+#CONT SPAN{
+    font-size: 25PX;
+}
+
+
+
+@media screen and (max-width:650px) {
+    h1 a{
+        font-size: 20px;
+    }
+   nav{
+   margin-left:50px;
+   }
+    nav li{
+        padding: 0px;
+    }
+    header h1{
+        
+        margin: 10px 10px 10px 13px;
+        display: none;
+
+    }
+    header h2{
+        
+        margin: 10px 10px 10px 13px;
+        display: inline;
+
+    }
+ 
+    #foot-content a{
+    margin: 20px 15px 20px 10px;
+
+    }
+    #img1{
+        
+        margin-left: 0px;
+        margin-top: 15px;
+    
+    }
+    #projects{
+        text-align: center;
+        display: block;
+        flex-direction: column;
+        margin-bottom: -48px;
+    }
+    #projects img{
+        height: 300px;
+        width:90vw;
+    }
+    #pro{
+        margin-bottom:-50px ;
+        padding-bottom:-30px ;
+
+    }
+}
+@media screen and (max-width:480px) {
+   nav{
+       margin-left: 10px;
+   }
+    nav li{
+        padding: 0px;
+    }
+    header h1{
+       
+        margin: 10px 15px 10px 13px;
+
+    }
+   
+ 
+    #foot-content a{
+    margin: 20px 15px 20px 10px;
+
+    }
+    li a{
+        font-size:18px;
+        font-family: monospace;
+        padding:10px 5px;
+        
+    }
+    
+    #img1{
+    height: 30px;
+    margin-top: 10px;
+    right:30px;
+    }
+
+    article h1{
+    font-size: 40px;
+    margin-left:100px ;
+}
+article h3{
+    font-size: 40px;
+    margin-left:-40px ;
+}
+#div1 p{
+    font-size: 28px;
+}
+#div1 section{
+    font-size: 17px;
+}
+}
