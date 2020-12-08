@@ -407,6 +407,9 @@ footer div{
         height: 300px;
         width:80vw;
     }
+    #projects h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
     #pro{
         margin-bottom:-50px ;
         padding-bottom:-30px ;
