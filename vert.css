@@ -6,6 +6,7 @@ html{
   color:white;
   left: 0px;
   top: 0px;
+  margin: 0px;
 
 }
 
@@ -207,6 +208,7 @@ article h3{
 
 }
 #projects{
+    margin-bottom: 10px;
     text-align: center;
     display:flex ;
     flex-wrap:wrap;
@@ -361,6 +363,53 @@ footer div{
 
 
 
+#mc_embed_signup{
+    box-shadow: 5px 5px #0000009f;
+    color:#00fea9;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: fit-content;
+    background: #6430ef;
+}
+#mce-EMAIL{
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+#mc-embedded-subscribe{
+    font-family:  sans-serif;
+    font-size: 25px;
+    width: fit-content;
+    height: 35px;
+    border-radius: 3px;
+    margin-top: 10px;
+    background: #043256;
+    border: none;
+    color: whitesmoke;
+
+}
+#mc-embedded-subscribe:hover{
+    border: #00fea9;
+    transform: scale(0.9);
+}
+#avatar{
+    height: 100px;
+    margin-bottom: -30px;
+
+
+#mc2{
+    background-color:#00fea9;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+
 @media screen and (max-width:650px) {
     html{
         margin: 0px;
@@ -401,7 +450,7 @@ footer div{
         text-align: center;
         display: block;
         flex-direction: column;
-        margin-bottom: -48px;
+        margin-bottom: -40px;
     }
     #projects img{
         height: 300px;
@@ -472,7 +521,22 @@ article h3{
 #CONT SPAN{
     font-size: 18PX;
 }
+
+#mc_embed_signup{
+    width: 80vw;
+    padding: 10px;
+
 }
+#dance{
+}
+
+
+
+
+
+
+
+
 #foot-content a{
     font-size: 25px;
     padding: 5px;
