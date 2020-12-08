@@ -246,7 +246,7 @@ article h3{
 #projects div{
     margin:50px auto  ;
     background: #333333;
-    padding: 10px;
+    padding: 10px 0px;
     border-radius: 10px;
 }
 #pro{
@@ -341,7 +341,7 @@ footer div{
     font-family: 'JetBrains Mono', monospace;
     padding-top:30px ;
     background: url(https://i.ibb.co/kxxd2zJ/crop1.jpg);
-    font-size: 50px;
+    font-size: 40px;
     margin:auto;
     text-align:center;
     border-TOP:5px solid #333333 ;
@@ -353,6 +353,10 @@ footer div{
 
 
 @media screen and (max-width:650px) {
+    html{
+        margin: 0px;
+      
+          }
     h1 a{
         font-size: 20px;
     }
@@ -393,7 +397,7 @@ footer div{
     }
     #projects img{
         height: 300px;
-        width:90vw;
+        width:80vw;
     }
     #pro{
         margin-bottom:-50px ;
@@ -402,6 +406,10 @@ footer div{
     }
 }
 @media screen and (max-width:480px) {
+    html{
+  margin: 0px;
+
+    }
    nav{
        margin-left: 10px;
    }
@@ -420,7 +428,7 @@ footer div{
 
     }
     li a{
-        font-size:18px;
+        font-size:15px;
         font-family: monospace;
         padding:10px 5px;
         
@@ -446,4 +454,11 @@ article h3{
 #div1 section{
     font-size: 17px;
 }
+#CONT{
+        font-size: 30px;
+}
+#CONT SPAN{
+    font-size: 18PX;
+}
+
 }
