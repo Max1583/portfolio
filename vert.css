@@ -52,7 +52,7 @@ top: 0px;
   width: 100%;
   display: flex;
   flex-direction: row;
-  background: rgb(52, 68,153) ;
+  background: #333333 ;
   position: sticky;
   border-bottom:5px solid #333333 ;
 
@@ -71,7 +71,7 @@ li a{
   
 }
 li a:hover{
-    background-color: rgba(70, 28, 130, 0.541) ;
+    background-color: rgba(0, 0, 0, 0.541) ;
 }
 nav{
   margin-left: auto;
@@ -146,7 +146,7 @@ nav{
     animation-name: loading;
     animation-delay:s ;
     animation-duration: 2s;
-    animation-iteration-count: 5;
+    animation-iteration-count: 10;
 }
 
 
@@ -159,7 +159,7 @@ nav{
       
     }
     100%{
-        left: 70%;
+        left: 75%;
         
     }
 
